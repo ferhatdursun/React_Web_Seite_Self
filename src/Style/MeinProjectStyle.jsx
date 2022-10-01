@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 export const Img = styled.img`
-  width: 350px;
+  width: 310px;
+  height: 240px;
   margin-bottom: 1rem;
 `;
 
@@ -10,7 +11,6 @@ export const FireBlogAppContainer = styled.div`
   width: 25%;
   margin: 2rem;
   flex-direction: column;
-  
 `;
 
 export const Button = styled.button`
@@ -35,6 +35,8 @@ export const Container = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   margin: 3rem;
+  background-color: skyblue;
+
   @media (max-width: 1254px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
