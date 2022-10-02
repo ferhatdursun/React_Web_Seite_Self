@@ -4,13 +4,15 @@ import {
   E,
   Div,
   A,
-  Gmail_Icon,
+  Kontakt_Icon,
   Img_Fd,
   Container_Kontakt,
-  Div_Kontakt_Details
+  Div_Kontakt_Details,
 } from "../Style/KontaktStyle";
-import Gmail from "../assets/Gmail.png";
+import Gmail_Icon from "../assets/Gmail.png";
 import Ferhat_Foto from "../assets/fd.png";
+import GitHub_Icon from "../assets/GitHub.png";
+import Linkedin_Icon from "../assets/Linkedin.png";
 const Kontakt = () => {
   return (
     <Container>
@@ -22,7 +24,9 @@ const Kontakt = () => {
         <Container_Kontakt>
           <Div_Kontakt_Details>
             <A href="mailto:Ferhatdursnu@gmail.com">Send email</A>
-            <Gmail_Icon src={Gmail} alt="" />
+            <A href="mailto:Ferhatdursnu@gmail.com">
+              <Kontakt_Icon  src={Gmail_Icon} alt="" />
+            </A>
           </Div_Kontakt_Details>
           {/* <i class="bi bi-envelope"></i> */}
           {/* <h4>
@@ -36,7 +40,15 @@ const Kontakt = () => {
               rel="noreferrer"
               //! Burada ki rel="noreferrer" target'in calismasi icin.
             >
-              Github{" "}
+              GitHub{" "}
+            </A>
+            <A
+              href="https://github.com/ferhatdursun"
+              target="_blank"
+              rel="noreferrer"
+              //! Burada ki rel="noreferrer" target'in calismasi icin.
+            >
+              <Kontakt_Icon src={GitHub_Icon} alt="" />
             </A>
           </Div_Kontakt_Details>
           <br />
@@ -47,6 +59,13 @@ const Kontakt = () => {
               rel="noreferrer"
             >
               Linkedin
+            </A>
+            <A
+              href="https://www.linkedin.com/in/ferhat-dursun1/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Kontakt_Icon src={Linkedin_Icon} alt="" />
             </A>
           </Div_Kontakt_Details>
         </Container_Kontakt>

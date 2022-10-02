@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const A = styled.a`
-margin-top: 1rem;
+margin-top: 0.5rem;
 color: orange;
 font-size: larger;
 `
@@ -10,8 +10,9 @@ export const Img_Fd = styled.img`
 width: 20rem;
 `
 
-export const Gmail_Icon = styled.img`
+export const Kontakt_Icon = styled.img`
 width: 3rem;
+/* padding-top: 0.5rem; */
 `
 
 export const Container = styled.div`
@@ -29,21 +30,25 @@ export const Div = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 3% 0;
-  /* margin: 17% 0; */
+  padding: 5% 0;
+
   
 `;
 export const E = styled.i`
   color: blueviolet;
 `;
 
-export const Container_Kontakt = styled.div`
-display: flex;
-margin: 1rem;
-`
 export const Div_Kontakt_Details = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 1rem;
+`;
+
+export const Container_Kontakt = styled.div`
+  display: flex;
+  margin-top: 2rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;

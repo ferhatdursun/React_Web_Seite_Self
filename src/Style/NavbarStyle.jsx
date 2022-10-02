@@ -6,8 +6,7 @@ export const Container = styled.div`
   margin-top: 1vh;
   margin-bottom: 1vh;
   @media (max-width: 768px) {
-    flex-direction: column;
-    
+    flex-direction: column; 
   }
 `;
 
