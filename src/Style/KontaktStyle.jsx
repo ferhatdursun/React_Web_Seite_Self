@@ -4,6 +4,7 @@ export const A = styled.a`
 margin-top: 0.5rem;
 color: orange;
 font-size: larger;
+text-decoration-line: none;
 `
 
 export const Img_Fd = styled.img`
@@ -15,8 +16,6 @@ width: 3rem;
 /* padding-top: 0.5rem; */
 `
 
-
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -24,9 +23,8 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   padding: 5% 0;
-
-  
 `;
+
 export const E = styled.i`
   color: blueviolet;
 `;
