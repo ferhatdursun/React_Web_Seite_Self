@@ -15,16 +15,9 @@ width: 3rem;
 /* padding-top: 0.5rem; */
 `
 
-export const Container = styled.div`
-  /* background: url(https://picsum.photos/1600/900); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-`;
 
-export const Div = styled.div`
+
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +40,7 @@ export const Div_Kontakt_Details = styled.div`
 
 export const Container_Kontakt = styled.div`
   display: flex;
-  margin-top: 2rem;
+  margin-top: 4rem;
   @media (max-width: 768px) {
     flex-direction: column;
   }

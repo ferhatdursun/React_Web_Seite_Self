@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: space-between;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     flex-direction: column; 
   }
 `;
@@ -22,9 +22,8 @@ export const Ferhat = styled.i`
 
 export const Menu_1 = styled.div`
   padding-right: 1rem;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    padding: 0.7rem;
+  @media (max-width: 868px) {
+    padding: 0.5rem;
   }
 `;
 
@@ -38,7 +37,7 @@ export const Menu = styled.div`
   font-size: small;
   justify-content: center;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     flex-direction: column;
     margin-top: 1rem;
   }

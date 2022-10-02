@@ -22,7 +22,7 @@ const About = () => {
         <h3>I'm currently learning Full-Stack Development Languages.</h3>
         <h3>
           I've already known Python, Django, JS, ReactJS, HTML5,
-          CSS3, SQL, Linux, Git, Github.
+          Css3, SQL, Linux, Git, Github.
         </h3>
         <h2>
           <a href="mailto:Ferhatdursnu@gmail.com">Send email</a> :

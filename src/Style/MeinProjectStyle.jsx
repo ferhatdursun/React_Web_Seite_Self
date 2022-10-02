@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Img = styled.img`
-  width: 310px;
+  width: 350px;
   height: 240px;
   margin-bottom: 1rem;
 `;
@@ -34,7 +34,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 3rem;
   background-color: skyblue;
 
   @media (max-width: 1254px) {
@@ -42,10 +41,16 @@ export const Container = styled.div`
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     flex-direction: row;
+
+    justify-content: center;
+
   }
   @media (max-width: 768px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    flex-direction: row;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;
