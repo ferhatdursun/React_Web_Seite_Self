@@ -11,11 +11,13 @@ import {
   Kontakt_Icon,
   Container_Back_Kontakt,
   Div_GitHub_Netlify,
+  Container_GitHub_Netlify,
 } from "../Style/FireBlogDetailsStyles";
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
-
+import Linkedin_Icon from "../assets/Linkedin.png";
+import Netlify_Icon from "../assets/Netlify.jpeg";
 const FireBlogAppDetails = () => {
   const navigate = useNavigate();
 
@@ -57,24 +59,44 @@ const FireBlogAppDetails = () => {
             alt=""
           />
         </Back_Button>
-        <Div_GitHub_Netlify>
-          <GitHub
-            href="https://github.com/ferhatdursun/React_FireBlog_App"
-            target="_blank"
-            rel="noreferrer"
-            //! Burada ki rel="noreferrer" target'in calismasi icin.
-          >
-            GitHub{" "}
-          </GitHub>
-          <GitHub
-            href="https://github.com/ferhatdursun/React_FireBlog_App"
-            target="_blank"
-            rel="noreferrer"
-            //! Burada ki rel="noreferrer" target'in calismasi icin.
-          >
-            <Kontakt_Icon src={GitHub_Icon} alt="" />
-          </GitHub>
-        </Div_GitHub_Netlify>
+        <Container_GitHub_Netlify>
+          <Div_GitHub_Netlify>
+            <GitHub
+              href="https://github.com/ferhatdursun/React_FireBlog_App"
+              target="_blank"
+              rel="noreferrer"
+              //! Burada ki rel="noreferrer" target'in calismasi icin.
+            >
+              GitHub{" "}
+            </GitHub>
+            <GitHub
+              href="https://github.com/ferhatdursun/React_FireBlog_App"
+              target="_blank"
+              rel="noreferrer"
+              //! Burada ki rel="noreferrer" target'in calismasi icin.
+            >
+              <Kontakt_Icon src={GitHub_Icon} alt="" />
+            </GitHub>
+          </Div_GitHub_Netlify>
+          <Div_GitHub_Netlify>
+            <GitHub
+              href="https://ferhat-capsstone-fireblog-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              //! Burada ki rel="noreferrer" target'in calismasi icin.
+            >
+              Netlify{" "}
+            </GitHub>
+            <GitHub
+              href="https://ferhat-capsstone-fireblog-app.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              //! Burada ki rel="noreferrer" target'in calismasi icin.
+            >
+              <Kontakt_Icon src={Netlify_Icon} alt="" />
+            </GitHub>
+          </Div_GitHub_Netlify>
+        </Container_GitHub_Netlify>
       </Container_Back_Kontakt>
     </Main>
   );

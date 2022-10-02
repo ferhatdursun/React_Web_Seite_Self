@@ -5,6 +5,9 @@ margin-top: 0.5rem;
 color: orange;
 font-size: larger;
 text-decoration-line: none;
+:hover {
+  color: red;
+}
 `
 
 export const Img_Fd = styled.img`
