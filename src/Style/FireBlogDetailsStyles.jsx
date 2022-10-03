@@ -10,12 +10,33 @@ export const DivComment = styled.div`
   border: 3px solid blueviolet;
   padding: 3rem 0;
   margin-bottom: 2rem;
+  @media (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 
 export const Comment = styled.div`
   border: 1px solid orange;
   width: 40%;
   padding: 1rem 2rem;
+
+  @media (max-width: 1200px) {
+    width: 41rem;
+    height: 15rem;
+    margin-top: 2rem;
+    border: 2px solid brown;
+  }
+  @media (max-width: 768px) {
+    width: 25rem;
+    height: 20rem;
+  }
+  @media (max-width: 490px) {
+    width: 25rem;
+    height: 22rem;
+  }
 `;
 
 export const Title = styled.h1`
@@ -71,4 +92,14 @@ export const Container_GitHub_Netlify = styled.div`
   width: 90%;
   align-items: center;
   justify-content: center;
+`;
+
+export const Iframe = styled.iframe`
+  @media (max-width: 490px) {
+    width: 13rem;
+    height: 30rem;
+  }
+  @media (max-width: 768px) {
+    width: 25rem;
+  }
 `;

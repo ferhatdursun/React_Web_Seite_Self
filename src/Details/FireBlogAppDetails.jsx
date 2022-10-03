@@ -12,6 +12,7 @@ import {
   Container_Back_Kontakt,
   Div_GitHub_Netlify,
   Container_GitHub_Netlify,
+  Iframe,
 } from "../Style/FireBlogDetailsStyles";
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
@@ -26,7 +27,7 @@ const FireBlogAppDetails = () => {
       <Title>React_Fire_Blog_App</Title>
       <DivComment>
         <div>
-          <iframe
+          <Iframe
             width="660"
             height="369"
             src="https://www.youtube.com/embed/oFkNWRNDP_8"
@@ -35,7 +36,7 @@ const FireBlogAppDetails = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             //! Burada allowFullScreen Youtubeden Default olarak F ve S harflari kücük olarak geliyo. Deswegen page de tam ekran özelligi calismiyor.
-          ></iframe>
+          ></Iframe>
         </div>
         <Comment>
           <p>asdasd</p>
