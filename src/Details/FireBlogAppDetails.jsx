@@ -17,7 +17,6 @@ import {
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
-import Linkedin_Icon from "../assets/Linkedin.png";
 import Netlify_Icon from "../assets/Netlify.jpeg";
 const FireBlogAppDetails = () => {
   const navigate = useNavigate();
@@ -27,16 +26,6 @@ const FireBlogAppDetails = () => {
       <Title>React_Fire_Blog_App</Title>
       <DivComment>
         <div>
-          {/* <Iframe
-            width="660"
-            height="369"
-            src="https://www.youtube.com/embed/oFkNWRNDP_8"
-            title="React_Fire_Blog_App"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            //! Burada allowFullScreen Youtubeden Default olarak F ve S harflari kücük olarak geliyo. Deswegen page de tam ekran özelligi calismiyor.
-          ></Iframe> */}
           <Iframe
             width="660"
             height="369"

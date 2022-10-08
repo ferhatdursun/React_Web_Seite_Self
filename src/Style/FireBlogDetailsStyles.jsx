@@ -95,11 +95,11 @@ export const Container_GitHub_Netlify = styled.div`
 `;
 
 export const Iframe = styled.iframe`
-  @media (max-width: 490px) {
-    width: 13rem;
-    height: 30rem;
-  }
   @media (max-width: 768px) {
-    width: 25rem;
+    width: 31rem;
+  }
+  @media (max-width: 490px) {
+    width: 10rem;
+    height: 30rem;
   }
 `;
