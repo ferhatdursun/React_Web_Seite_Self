@@ -18,7 +18,11 @@ export const AboutContainer = styled.div`
     font-size: 3rem;
   }
   @media (max-width: 490px) {
-    width: 31rem;
+    width: 30rem;
+  }
+  @media (max-width: 350px ) {
+    
+    width: 28rem;
   }
 `;
 export const StyledImage = styled.img`
@@ -34,6 +38,9 @@ export const HeaderContainer = styled.div`
     align-items: center;
     justify-content: center;
     display: flex;
+  }
+  @media (max-width: 350px) {
+    width: 20rem;
 
   }
 `;
@@ -48,11 +55,14 @@ export const InfoContainer = styled.div`
   a {
     color: orange;
   }
-  @media (max-width:490px) {
+  @media (max-width: 490px) {
     width: 25rem;
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+  @media (max-width: 350px) {
+    width: 20rem;
   }
 `;
 

@@ -7,7 +7,10 @@ export const Container = styled.div`
   margin-bottom: 1vh;
   @media (max-width: 868px) {
     flex-direction: column;
-    width: 31rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+    width: 26rem;
   }
 `;
 

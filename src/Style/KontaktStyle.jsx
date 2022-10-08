@@ -26,6 +26,9 @@ export const Container = styled.div`
   text-align: center;
   justify-content: center;
   padding: 5% 0;
+  @media (max-width: 768px) {
+    width: 26rem;
+  }
 `;
 
 export const E = styled.i`
