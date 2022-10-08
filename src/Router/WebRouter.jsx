@@ -4,10 +4,11 @@ import Navbar from "../components/Navbar";
 import About from "../pages/About";
 import Home from "../pages/Home";
 import MeinProject from "../pages/MeinProject";
-import Kontakt from "../pages/Kontakt"
+import Kontakt from "../pages/Kontakt";
 import FireBlogAppDetails from "../Details/FireBlogAppDetails";
 import TaskTrackerDetails from "../Details/TaskTrackerDetails";
-
+import TourPlacesDetails from "../Details/TourPlacesDetails";
+import FireContactAppDetails from "../Details/FireContactAppDetails"
 const WebRouter = () => {
   return (
     <BrowserRouter>
@@ -18,7 +19,9 @@ const WebRouter = () => {
         <Route path="/MeinProject" element={<MeinProject />} />
         <Route path="/Kontakt" element={<Kontakt />} />
         <Route path="/FireBlogAppDetails" element={<FireBlogAppDetails />} />
-        <Route path="/TaskTrackerDetails" element={<TaskTrackerDetails/>} />
+        <Route path="/TaskTrackerDetails" element={<TaskTrackerDetails />} />
+        <Route path="/TourPlacesDetails" element={<TourPlacesDetails />} />
+        <Route path="/FireContactAppDetails" element={<FireContactAppDetails/>} />
       </Routes>
     </BrowserRouter>
   );
