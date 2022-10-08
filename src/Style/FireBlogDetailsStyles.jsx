@@ -34,7 +34,7 @@ export const Comment = styled.div`
     height: 20rem;
   }
   @media (max-width: 490px) {
-    width: 16rem;
+    width: 20rem;
     height: 22rem;
   }
 `;
@@ -99,8 +99,7 @@ export const Iframe = styled.iframe`
     width: 28rem;
   }
   @media (max-width: 490px) {
-    width: 13rem;
+    width: 20rem;
     height: 30rem;
-  }
-  
+  }  
 `;
