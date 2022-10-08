@@ -20,9 +20,8 @@ export const AboutContainer = styled.div`
   @media (max-width: 490px) {
     width: 30rem;
   }
-  @media (max-width: 350px ) {
-    
-    width: 28rem;
+  @media (max-width: 350px) {
+    width: 26rem;
   }
 `;
 export const StyledImage = styled.img`
@@ -41,7 +40,6 @@ export const HeaderContainer = styled.div`
   }
   @media (max-width: 350px) {
     width: 20rem;
-
   }
 `;
 
@@ -77,8 +75,8 @@ export const Hbir = styled.h1`
 `;
 
 export const Span = styled.span`
-text-align: center;
-align-items: center;
-justify-content: center;
-display: flex;
-`
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+`;
