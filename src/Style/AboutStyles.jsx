@@ -17,6 +17,9 @@ export const AboutContainer = styled.div`
     font-family: "Girassol", sans-serif;
     font-size: 3rem;
   }
+  @media (max-width: 490px) {
+    width: 30rem;
+  }
 `;
 export const StyledImage = styled.img`
   width: 500px;
@@ -25,6 +28,14 @@ export const StyledImage = styled.img`
 
 export const HeaderContainer = styled.div`
   background-color: whitesmoke;
+  @media (max-width: 490px) {
+    width: 25rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -37,4 +48,27 @@ export const InfoContainer = styled.div`
   a {
     color: orange;
   }
+  @media (max-width:490px) {
+    width: 25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 `;
+
+export const Hbir = styled.h1`
+  display: block;
+  @media (max-width: 490px) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+`;
+
+export const Span = styled.span`
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+`

@@ -6,27 +6,30 @@ export const Container = styled.div`
   margin-top: 1vh;
   margin-bottom: 1vh;
   @media (max-width: 868px) {
-    flex-direction: column; 
+    flex-direction: column;
   }
 `;
 
-export const Ferhat = styled.i`
+export const Ferhat = styled.div`
   font-size: xx-large;
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-left: 0.6vw;
   cursor: pointer;
-  
 `;
 
 export const Menu_1 = styled.div`
   padding-right: 1rem;
   @media (max-width: 868px) {
     padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 `;
-
 
 export const E = styled.i`
   color: blueviolet;
@@ -35,6 +38,7 @@ export const E = styled.i`
 export const Menu = styled.div`
   display: flex;
   font-size: small;
+
   justify-content: center;
   align-items: center;
   @media (max-width: 868px) {
@@ -47,4 +51,3 @@ export const Span = styled.span`
   font-size: 1.2rem;
   cursor: pointer;
 `;
-
