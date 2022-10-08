@@ -7,6 +7,7 @@ export const Container = styled.div`
   margin-bottom: 1vh;
   @media (max-width: 868px) {
     flex-direction: column;
+    width: 31rem;
   }
 `;
 
@@ -24,10 +25,6 @@ export const Menu_1 = styled.div`
   padding-right: 1rem;
   @media (max-width: 868px) {
     padding: 0.5rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
   }
 `;
 
@@ -38,13 +35,12 @@ export const E = styled.i`
 export const Menu = styled.div`
   display: flex;
   font-size: small;
-
   justify-content: center;
   align-items: center;
   @media (max-width: 868px) {
     flex-direction: column;
     margin-top: 1rem;
-  }
+    }
 `;
 
 export const Span = styled.span`

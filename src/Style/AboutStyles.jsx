@@ -18,7 +18,7 @@ export const AboutContainer = styled.div`
     font-size: 3rem;
   }
   @media (max-width: 490px) {
-    width: 30rem;
+    width: 31rem;
   }
 `;
 export const StyledImage = styled.img`

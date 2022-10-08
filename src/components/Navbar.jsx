@@ -11,6 +11,7 @@ const Navbar = () => {
         F<E>e</E>rhat
       </Ferhat>
       <Menu>
+      
         <Menu_1>
           <i class="fa-solid fa-info" style={{ color: "blueviolet" }}></i>
           <Span onClick={() => navigate("/About")}> Über Mich</Span>
