@@ -9,8 +9,17 @@ export const Container = styled.div`
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center
-    width: 26rem;
+    justify-content: center;
+    width: 100%;
+  }
+  @media (max-width:768px) {
+    width: 100%;
+  }
+  @media (max-width:480px) {
+    width: 30rem;
+  }
+  @media (max-width:320px) {
+    width: 25rem;
   }
 `;
 

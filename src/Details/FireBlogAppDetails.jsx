@@ -18,6 +18,7 @@ import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
 import Netlify_Icon from "../assets/Netlify.jpeg";
+
 const FireBlogAppDetails = () => {
   const navigate = useNavigate();
 
