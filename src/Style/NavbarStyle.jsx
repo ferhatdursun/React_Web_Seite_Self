@@ -10,16 +10,16 @@ export const Container = styled.div`
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50rem;
   }
   @media (max-width:768px) {
-    width: 100%;
+    width: 40rem;
   }
   @media (max-width:480px) {
     width: 30rem;
   }
   @media (max-width:320px) {
-    width: 25rem;
+    width: 23rem;
   }
 `;
 

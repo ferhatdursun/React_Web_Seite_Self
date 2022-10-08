@@ -27,7 +27,13 @@ export const Container = styled.div`
   justify-content: center;
   padding: 5% 0;
   @media (max-width: 768px) {
-    width: 26rem;
+    width: 40rem;
+  }
+  @media (max-width: 480px) {
+    width: 30rem;
+  }
+  @media (max-width: 320px) {
+    width: 23rem;
   }
 `;
 

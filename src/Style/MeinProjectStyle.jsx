@@ -27,9 +27,10 @@ export const Container = styled.div`
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     flex-direction: row;
-
     justify-content: center;
-
+  }
+  @media (max-width: 868px) {
+    width: 50rem;
   }
   @media (max-width: 768px) {
     display: grid;
@@ -39,7 +40,13 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 26rem;
+    width: 40rem;
+  }
+  @media (max-width: 480px) {
+    width: 30rem;
+  }
+  @media (max-width: 320px) {
+    width: 23rem;
   }
 `;
 
