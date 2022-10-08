@@ -96,10 +96,11 @@ export const Container_GitHub_Netlify = styled.div`
 
 export const Iframe = styled.iframe`
   @media (max-width: 768px) {
-    width: 31rem;
+    width: 28rem;
   }
   @media (max-width: 490px) {
-    width: 10rem;
+    width: 13rem;
     height: 30rem;
   }
+  
 `;
