@@ -19,7 +19,7 @@ export const Container = styled.div`
     width: 30rem;
   }
   @media (max-width:320px) {
-    width: 23rem;
+    width: 21rem;
   }
 `;
 
