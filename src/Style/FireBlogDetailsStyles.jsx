@@ -34,7 +34,7 @@ export const Comment = styled.div`
     height: 20rem;
   }
   @media (max-width: 490px) {
-    width: 25rem;
+    width: 16rem;
     height: 22rem;
   }
 `;
