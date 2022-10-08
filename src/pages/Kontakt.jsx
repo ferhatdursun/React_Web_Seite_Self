@@ -17,9 +17,6 @@ const Kontakt = () => {
   return (
     <Container>
       <Img_Fd src={Ferhat_Foto} alt="" />
-      {/* <h3>
-          F<E>e</E>rhat Dursun
-        </h3> */}
       <Container_Kontakt>
         <Div_Kontakt_Details>
           <A href="mailto:Ferhatdursnu@gmail.com">Send email</A>
@@ -27,10 +24,6 @@ const Kontakt = () => {
             <Kontakt_Icon src={Gmail_Icon} alt="" />
           </A>
         </Div_Kontakt_Details>
-        {/* <i class="bi bi-envelope"></i> */}
-        {/* <h4>
-          F<E>e</E>rhatdursnu@gmail.com
-        </h4> */}
         <br />
         <Div_Kontakt_Details>
           <A

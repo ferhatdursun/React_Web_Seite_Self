@@ -1,16 +1,18 @@
 import React from "react";
-import { Container, Foto, Yazilar, Willkommen, Freelance, WebTasarimi, Img } from "../Style/HomeStyle";
+import {
+  Container,
+  Yazilar,
+  Willkommen,
+  Freelance,
+  WebTasarimi,
+  Img,
+} from "../Style/HomeStyle";
 import FotoHome from "../assets/FOTO.jpg";
 
 const Home = () => {
   return (
     <Container>
-      
-        <Img
-          src={FotoHome}
-          alt=""
-        />
-      
+      <Img src={FotoHome} alt="" />
       <Yazilar>
         <Willkommen>Willkommen!</Willkommen>
         <Freelance> Freelance Web Design</Freelance>

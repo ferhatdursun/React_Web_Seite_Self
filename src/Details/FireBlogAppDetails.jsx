@@ -44,13 +44,13 @@ const FireBlogAppDetails = () => {
       </DivComment>
       <Container_Back_Kontakt>
         <Back_Button>
-          <Button
+          {/* <Button
             onClick={() => {
               navigate(-1);
             }}
           >
             BACK
-          </Button>
+          </Button> */}
 
           <Back_Img
             onClick={() => {

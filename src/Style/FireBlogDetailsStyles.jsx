@@ -53,6 +53,7 @@ export const Button = styled.button`
 `;
 export const Back_Img = styled.img`
   width: 4rem;
+  margin-top: 2rem;
 `;
 export const Back_Button = styled.div`
   display: flex;

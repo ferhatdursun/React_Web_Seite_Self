@@ -29,10 +29,6 @@ height: 100vh;
   }
 `;
 
-export const Foto = styled.div`
- 
-`;
-
 export const Willkommen = styled.p`
 font-size: 1.5rem;
 `;
@@ -50,5 +46,4 @@ export const Yazilar = styled.div`
   text-align: center;
   padding-top: 14rem;
   color: white;
-  
 `;
