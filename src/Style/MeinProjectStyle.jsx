@@ -13,21 +13,7 @@ export const FireBlogAppContainer = styled.div`
   flex-direction: column;
 `;
 
-export const Button = styled.button`
-  width: 4rem;
-  height: 2rem;
-  margin-bottom: 2rem;
-  display: block;
-  @media (max-width: 768px) {
-    width: 4rem;
-  }
-  @media (max-width: 1224px) {
-    width: 4rem;
-  }
-  @media (max-width: 1424px) {
-    width: 4rem;
-  }
-`;
+
 
 //! How to use media queries with styled components
 export const Container = styled.div`
@@ -53,5 +39,21 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+`;
+
+export const Button = styled.button`
+  width: 4rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+  @media (max-width: 768px) {
+    width: 5rem;
+  }
+  @media (max-width: 1224px) {
+    width: 4rem;
+  }
+  @media (max-width: 1424px) {
+    width: 4rem;
   }
 `;
