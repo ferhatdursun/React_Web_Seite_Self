@@ -39,37 +39,37 @@ const MeinProject = () => {
         </Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Fire Blog App</h4>
+        <h4>React_Fire_Blog_App</h4>
         <Img src={FireBlogApp} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
