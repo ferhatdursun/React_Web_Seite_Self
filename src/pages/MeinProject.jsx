@@ -5,6 +5,7 @@ import fireblog from "../assets/fireblog.gif";
 import task_tracker from "../assets/task_tracker.gif";
 import tour_places from "../assets/tour-project.gif";
 import FireContactApp from "../assets/firecontact.gif";
+import calculator from "../assets/calculator.gif"
 import {
   FireBlogAppContainer,
   Img,
@@ -39,8 +40,8 @@ const MeinProject = () => {
         </Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
-        <Img src={FireBlogApp} alt="" />
+        <h4>Javascript_Calculator</h4>
+        <Img src={calculator} alt="" />
         <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>

@@ -20,7 +20,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: skyblue;
+  background-color:#04ABB5;
 
   @media (max-width: 1254px) {
     display: grid;
