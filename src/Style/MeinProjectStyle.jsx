@@ -50,19 +50,6 @@ export const Container = styled.div`
   }
 `;
 
-export const Button = styled.button`
-  /* width: 4rem; */
-  /* height: 2rem;*/
-  margin-bottom: 1rem;
-  display: block;
-
-  @media (max-width: 1424px) {
-    width: 4rem;
-  }
-  @media (max-width: 1224px) {
-    width: 4rem;
-  }
-  @media (max-width: 768px) {
-    width: 6rem;
-  }
-`;
+export const H4 = styled.h4`
+color: white;
+`

@@ -9,8 +9,8 @@ import calculator from "../assets/calculator.gif"
 import {
   FireBlogAppContainer,
   Img,
-  Button,
   Container,
+  H4
 } from "../Style/MeinProjectStyle";
 
 const MeinProject = () => {
@@ -18,61 +18,125 @@ const MeinProject = () => {
   return (
     <Container>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={fireblog} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
-      </FireBlogAppContainer>
-      <FireBlogAppContainer>
-        <h4>React_Task_Tracker</h4>
-        <Img src={task_tracker} alt="" />
-        <Button onClick={() => navigate("/TaskTrackerDetails")}>Details</Button>
-      </FireBlogAppContainer>
-      <FireBlogAppContainer>
-        <h4>React_Tour_Places</h4>
-        <Img src={tour_places} alt="" />
-        <Button onClick={() => navigate("/TourPlacesDetails")}>Details</Button>
-      </FireBlogAppContainer>
-      <FireBlogAppContainer>
-        <h4>React_Fire_Contact_App</h4>
-        <Img src={FireContactApp} alt="" />
-        <Button onClick={() => navigate("/FireContactAppDetails")}>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/FireBlogAppDetails")}
+        >
           Details
-        </Button>
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>Javascript_Calculator</h4>
+        <H4>React_Task_Tracker</H4>
+        <Img src={task_tracker} alt="" />
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
+      </FireBlogAppContainer>
+      <FireBlogAppContainer>
+        <H4>React_Tour_Places</H4>
+        <Img src={tour_places} alt="" />
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TourPlacesDetails")}
+        >
+          Details
+        </button>
+      </FireBlogAppContainer>
+      <FireBlogAppContainer>
+        <H4>React_Fire_Contact_App</H4>
+        <Img src={FireContactApp} alt="" />
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/FireContactAppDetails")}
+        >
+          Details
+        </button>
+      </FireBlogAppContainer>
+      <FireBlogAppContainer>
+        <H4>JavaScript_Calculator</H4>
         <Img src={calculator} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/JsCalculatorDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/FireBlogAppDetailss")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <h4>React_Fire_Blog_App</h4>
+        <H4>React_Fire_Blog_App</H4>
         <Img src={FireBlogApp} alt="" />
-        <Button onClick={() => navigate("/FireBlogAppDetails")}>Details</Button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          onClick={() => navigate("/TaskTrackerDetails")}
+        >
+          Details
+        </button>
       </FireBlogAppContainer>
     </Container>
   );

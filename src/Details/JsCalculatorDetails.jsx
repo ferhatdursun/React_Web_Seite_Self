@@ -16,20 +16,18 @@ import {
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
-import Netlify_Icon from "../assets/Netlify.jpeg";
 
-const FireBlogAppDetails = () => {
+const JsCalculatorDetails = () => {
   const navigate = useNavigate();
-
   return (
     <Main>
-      <Title>React_Fire_Blog_App</Title>
+      <Title>JavaScript_Calculator</Title>
       <DivComment>
         <div>
           <Iframe
             width="660"
             height="369"
-            src="https://www.youtube.com/embed/PteWqKywf8k"
+            src="https://www.youtube.com/embed/HXFxBgpgYMc"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -43,14 +41,6 @@ const FireBlogAppDetails = () => {
       </DivComment>
       <Container_Back_Kontakt>
         <Back_Button>
-          {/* <Button
-            onClick={() => {
-              navigate(-1);
-            }}
-          >
-            BACK
-          </Button> */}
-
           <Back_Img
             onClick={() => {
               navigate(-1);
@@ -62,7 +52,7 @@ const FireBlogAppDetails = () => {
         <Container_GitHub_Netlify>
           <Div_GitHub_Netlify>
             <GitHub
-              href="https://github.com/ferhatdursun/React_FireBlog_App"
+              href="https://ferhatdursun.github.io/JS_TaschenRechner/"
               target="_blank"
               rel="noreferrer"
               //! Burada ki rel="noreferrer" target'in calismasi icin.
@@ -70,30 +60,12 @@ const FireBlogAppDetails = () => {
               GitHub{" "}
             </GitHub>
             <GitHub
-              href="https://github.com/ferhatdursun/React_FireBlog_App"
+              href="https://ferhatdursun.github.io/JS_TaschenRechner/"
               target="_blank"
               rel="noreferrer"
               //! Burada ki rel="noreferrer" target'in calismasi icin.
             >
               <Kontakt_Icon src={GitHub_Icon} alt="" />
-            </GitHub>
-          </Div_GitHub_Netlify>
-          <Div_GitHub_Netlify>
-            <GitHub
-              href="https://ferhat-capsstone-fireblog-app.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              //! Burada ki rel="noreferrer" target'in calismasi icin.
-            >
-              Netlify{" "}
-            </GitHub>
-            <GitHub
-              href="https://ferhat-capsstone-fireblog-app.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              //! Burada ki rel="noreferrer" target'in calismasi icin.
-            >
-              <Kontakt_Icon src={Netlify_Icon} alt="" />
             </GitHub>
           </Div_GitHub_Netlify>
         </Container_GitHub_Netlify>
@@ -102,4 +74,4 @@ const FireBlogAppDetails = () => {
   );
 };
 
-export default FireBlogAppDetails;
+export default JsCalculatorDetails;

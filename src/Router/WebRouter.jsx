@@ -9,6 +9,7 @@ import FireBlogAppDetails from "../Details/FireBlogAppDetails";
 import TaskTrackerDetails from "../Details/TaskTrackerDetails";
 import TourPlacesDetails from "../Details/TourPlacesDetails";
 import FireContactAppDetails from "../Details/FireContactAppDetails"
+import JsCalculatorDetails from "../Details/JsCalculatorDetails";
 const WebRouter = () => {
   return (
     <BrowserRouter>
@@ -21,7 +22,8 @@ const WebRouter = () => {
         <Route path="/FireBlogAppDetails" element={<FireBlogAppDetails />} />
         <Route path="/TaskTrackerDetails" element={<TaskTrackerDetails />} />
         <Route path="/TourPlacesDetails" element={<TourPlacesDetails />} />
-        <Route path="/FireContactAppDetails" element={<FireContactAppDetails/>} />
+        <Route path="/FireContactAppDetails" element={<FireContactAppDetails />} />
+        <Route path="/JsCalculatorDetails" element={<JsCalculatorDetails />}/>
       </Routes>
     </BrowserRouter>
   );
