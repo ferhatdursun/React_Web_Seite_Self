@@ -6,6 +6,7 @@ import task_tracker from "../assets/task_tracker.gif";
 import tour_places from "../assets/tour-project.gif";
 import FireContactApp from "../assets/firecontact.gif";
 import calculator from "../assets/calculator.gif"
+import jsGuessNumber from "../assets/jsGuessNumber.gif"
 import {
   FireBlogAppContainer,
   Img,
@@ -74,7 +75,7 @@ const MeinProject = () => {
       </FireBlogAppContainer>
       <FireBlogAppContainer>
         <H4>Js_Guess_Number</H4>
-        <Img src={FireBlogApp} alt="" />
+        <Img src={jsGuessNumber} alt="" />
         <button
           type="button"
           class="btn btn-danger d-block"
