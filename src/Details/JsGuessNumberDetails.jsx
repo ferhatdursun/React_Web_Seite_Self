@@ -16,19 +16,18 @@ import {
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
-import Heroku_Icon from "../assets/Heroku.png";
 
-const FireTourPlacesDetails = () => {
+const JsGuessNumberDetails = () => {
   const navigate = useNavigate();
   return (
     <Main>
-      <Title>React_Tour_Places</Title>
+      <Title>JavaScript_Guess_Number</Title>
       <DivComment>
         <div>
           <Iframe
             width="660"
             height="369"
-            src="https://www.youtube.com/embed/ydl2H-N7hmw"
+            src="https://www.youtube.com/embed/2xbyrtJ76AE"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -42,14 +41,6 @@ const FireTourPlacesDetails = () => {
       </DivComment>
       <Container_Back_Kontakt>
         <Back_Button>
-          {/* <Button
-            onClick={() => {
-              navigate(-1);
-            }}
-          >
-            BACK
-          </Button> */}
-
           <Back_Img
             onClick={() => {
               navigate(-1);
@@ -61,7 +52,7 @@ const FireTourPlacesDetails = () => {
         <Container_GitHub_Netlify>
           <Div_GitHub_Netlify>
             <GitHub
-              href="https://github.com/ferhatdursun/React_Tour_Places"
+              href="https://github.com/ferhatdursun/JS_DOM_GuessNumber"
               target="_blank"
               rel="noreferrer"
               //! Burada ki rel="noreferrer" target'in calismasi icin.
@@ -69,30 +60,12 @@ const FireTourPlacesDetails = () => {
               GitHub{" "}
             </GitHub>
             <GitHub
-              href="https://github.com/ferhatdursun/React_Tour_Places"
+              href="https://github.com/ferhatdursun/JS_DOM_GuessNumber"
               target="_blank"
               rel="noreferrer"
               //! Burada ki rel="noreferrer" target'in calismasi icin.
             >
               <Kontakt_Icon src={GitHub_Icon} alt="" />
-            </GitHub>
-          </Div_GitHub_Netlify>
-          <Div_GitHub_Netlify>
-            <GitHub
-              href="https://ferhat-tour-places.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              //! Burada ki rel="noreferrer" target'in calismasi icin.
-            >
-              Heroku{" "}
-            </GitHub>
-            <GitHub
-              href="https://ferhat-tour-places.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-              //! Burada ki rel="noreferrer" target'in calismasi icin.
-            >
-              <Kontakt_Icon src={Heroku_Icon} alt="" />
             </GitHub>
           </Div_GitHub_Netlify>
         </Container_GitHub_Netlify>
@@ -101,4 +74,4 @@ const FireTourPlacesDetails = () => {
   );
 };
 
-export default FireTourPlacesDetails;
+export default JsGuessNumberDetails;

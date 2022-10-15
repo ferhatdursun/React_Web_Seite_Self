@@ -22,7 +22,7 @@ const MeinProject = () => {
         <Img src={fireblog} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/FireBlogAppDetails")}
         >
           Details
@@ -33,7 +33,7 @@ const MeinProject = () => {
         <Img src={task_tracker} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details
@@ -44,7 +44,7 @@ const MeinProject = () => {
         <Img src={tour_places} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TourPlacesDetails")}
         >
           Details
@@ -55,7 +55,7 @@ const MeinProject = () => {
         <Img src={FireContactApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/FireContactAppDetails")}
         >
           Details
@@ -66,19 +66,19 @@ const MeinProject = () => {
         <Img src={calculator} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/JsCalculatorDetails")}
         >
           Details
         </button>
       </FireBlogAppContainer>
       <FireBlogAppContainer>
-        <H4>React_Fire_Blog_App</H4>
+        <H4>Js_Guess_Number</H4>
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
-          onClick={() => navigate("/FireBlogAppDetailss")}
+          class="btn btn-danger d-block"
+          onClick={() => navigate("/JsGuessNumberDetails")}
         >
           Details
         </button>
@@ -88,7 +88,7 @@ const MeinProject = () => {
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details
@@ -99,7 +99,7 @@ const MeinProject = () => {
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details
@@ -110,7 +110,7 @@ const MeinProject = () => {
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details
@@ -121,7 +121,7 @@ const MeinProject = () => {
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details
@@ -132,7 +132,7 @@ const MeinProject = () => {
         <Img src={FireBlogApp} alt="" />
         <button
           type="button"
-          class="btn btn-danger"
+          class="btn btn-danger d-block"
           onClick={() => navigate("/TaskTrackerDetails")}
         >
           Details

@@ -10,6 +10,7 @@ import TaskTrackerDetails from "../Details/TaskTrackerDetails";
 import TourPlacesDetails from "../Details/TourPlacesDetails";
 import FireContactAppDetails from "../Details/FireContactAppDetails"
 import JsCalculatorDetails from "../Details/JsCalculatorDetails";
+import JsGuessNumberDetails from "../Details/JsGuessNumberDetails";
 const WebRouter = () => {
   return (
     <BrowserRouter>
@@ -23,7 +24,8 @@ const WebRouter = () => {
         <Route path="/TaskTrackerDetails" element={<TaskTrackerDetails />} />
         <Route path="/TourPlacesDetails" element={<TourPlacesDetails />} />
         <Route path="/FireContactAppDetails" element={<FireContactAppDetails />} />
-        <Route path="/JsCalculatorDetails" element={<JsCalculatorDetails />}/>
+        <Route path="/JsCalculatorDetails" element={<JsCalculatorDetails />} />
+        <Route path="/JsGuessNumberDetails" element={<JsGuessNumberDetails/>}/>
       </Routes>
     </BrowserRouter>
   );

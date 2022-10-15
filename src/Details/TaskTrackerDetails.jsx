@@ -12,7 +12,7 @@ import {
   Div_GitHub_Netlify,
   Container_GitHub_Netlify,
   Iframe,
-} from "../Style/FireBlogDetailsStyles";
+} from "../Style/AllDetailsStyles";
 import { useNavigate } from "react-router-dom";
 import Back_Icon from "../assets/Back_Icon.jpeg";
 import GitHub_Icon from "../assets/GitHub.png";
